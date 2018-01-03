@@ -37,7 +37,7 @@ export default class Comment extends Component{
 	
 	getHeader(commentData){
 		return (<div className="commentHeader">
-			<div className="commentAuthor">{commentData.user}</div>
+			<div className="commentAuthor">{commentData.user}<span className="commentCollapseSpan"></span></div>
 			<div className="date">&nbsp;on {commentData.date.toLocaleDateString("en-US", options)}</div>
 		</div>);
 	}
@@ -52,8 +52,8 @@ export default class Comment extends Component{
 							<Avatar size="large" icon="user" src={commentData.image}/> 
 						</div>
 						<div className="commentRight">
-						 	<Collapse bordered={false}>
-								<Panel header={this.getHeader(commentData)} key="1">
+						 	<Collapse bordered={false} >
+								<Panel header={this.getHeader(commentData)} key="1" showArrow={false}>
 								<div className="commentBody" dangerouslySetInnerHTML={this.rawMarkup()}/>
 								
 								

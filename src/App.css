@@ -52,3 +52,22 @@
 .commentBody{
   font-size: 13px;
 }
+.commentCollapseSpan{
+  font-weight: normal;
+}
+.commentCollapseSpan:before{
+  display: inline;
+  content: " [+] ";
+ -webkit-transition: all 3s;
+    transition: all 3s;
+}
+.ant-collapse-item-active>div>div>div>.commentCollapseSpan:before{
+  display: inline;
+  content: " [-] ";
+  -webkit-transition: all 3s;
+    transition: all 3s;
+}
+
+.ant-collapse-borderless > .ant-collapse-item{
+  border: 0;
+}

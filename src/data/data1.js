@@ -7,7 +7,7 @@ export  const data1 = [
   {id:"comment-6",text:"hai",parent:"comment-2",user:"Test user",image:"https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",date:new Date()},
   {id:"comment-7",text:"hai",parent:"comment-6",user:"Test user",image:"https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",date:new Date()},
   {id:"comment-8",text:"hai",parent:"comment-6",user:"Test userTest user",image:"https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",date:new Date()},
-  {id:"comment-9",text:"hai",parent:"comment-1",user:"",image:"https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",date:new Date()},
+  {id:"comment-9",text:"hai",parent:"comment-1",user:"Test userrr",image:"https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",date:new Date()},
   {id:"comment-10",text:"hai",parent:"comment-1",user:"Test user",image:"https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",date:new Date()},
   {id:"comment-11",text:"hai",parent:"comment-1",user:"Test user",image:"https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",date:new Date()},
   {id:"comment-12",text:"hai",parent:"comment-1",user:"Test user",image:"https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",date:new Date()},
